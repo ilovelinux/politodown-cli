@@ -104,8 +104,8 @@ async def home():
     year = await inquirer.number(
         message="Year:",
         min_allowed=2002,
-        max_allowed=2022,
-        default=2022,
+        max_allowed=2023,
+        default=2023,
         validate=EmptyInputValidator(),
     ).execute_async()
 
